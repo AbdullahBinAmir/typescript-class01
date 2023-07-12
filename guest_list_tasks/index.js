@@ -24,3 +24,5 @@ guestList.push("Mateen");
 guestList.forEach(function (guest) {
     console.log("".concat(guest, ", Please come at dinner tommorrow."));
 });
+//space not available
+console.log('Table is not avaialbe..We have space for only 2 guests');
