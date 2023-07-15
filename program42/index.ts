@@ -1,7 +1,6 @@
-const make_great = async (names:string[])=>{
+const make_great = (names:string[])=>{
    for(let i=0; i<names.length; i++){
-        let copy = names.pop()
-        names.push(`Great ${copy}`)
+        names[i] = `Great ${names[i]}`
     };
 }
 
